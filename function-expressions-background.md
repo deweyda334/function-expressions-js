@@ -35,7 +35,7 @@ In this activity, you'll learn how to convert a traditional function into a func
 ```javascript
 function calcProduct (num1, num2) {
     // Calculate the product of two numbers
-    return num1 * num2;
+    return 4 * 5;
 }
 
 // Assign the result of the calculation to a
