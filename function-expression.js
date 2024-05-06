@@ -24,3 +24,35 @@ console.log(`(Option 2): The sum is: ${calcSum(20, 4)}`);
 const firstNum = 20;
 const secondNum = 4;
 console.log(`(Option 3): The sum is: ${calcSum(firstNum, secondNum)}`);
+
+// My function rewritten as a FUNCTION EXPRESSION
+// FUNCTION #2
+
+function welcomeUser (fName) {
+    // Welcome the user by their first name
+    return `Welcome to Career Tech, ${fName}!`;
+}
+// Call the welcomeUser function and use the alert ( ) method to display the welcome message in an alert box
+const myName = 'Dax';
+alert(welcomeUser(myName));
+
+
+
+
+
+
+
+
+// My function rewritten as a FUNCTION EXPRESSION
+// FUNCTION #3
+function showBiography (fName, lName, userAge) {
+    // Build a template string containing the user's full name and age
+    return `Hello! My name is ${fName} ${lName} and I am ${userAge} years old.`;
+}
+// Call the showBiography function and display the info
+// about the user in the browser console
+const firstName = 'Dax';
+const lastName = 'Dewey';
+const age = 18;
+console.log(showBiography(firstName, lastName, age));
+
